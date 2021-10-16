@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>milk calclator || calclate</title>
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="body">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/background.jpg" width="100px" height="40px" alt=""></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="calclator.html">Calclator</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end of body -->
+        <div class="forms">
+            <div class="inputs">
+                <fieldset>
+                    <legend>Enter daily amount of milk (litress) </legend>
+                    <form action="">
+                        <label for="">First Shed
+                            <br>
+                            <input type="number" name="shed1" id="shed1" placeholder="Enter amount per shed">
+                        </label>
+                        <br>
+                        <label for="">Second Shed
+                            <br>
+                            <input type="number" name="shed2" id="shed2" placeholder="Enter amount per shed">
+                        </label>
+                        <br>
+                        <label for="">Third Shed
+                            <br>
+                            <input type="number" name="shed3" id="shed3" placeholder="Enter amount per shed">
+                        </label>
+                        <br>
+                        <label for="">Fourth Shed
+                            <br>
+                            <input type="number" name="shed4" id="shed4" placeholder="Enter amount per shed">
+                        </label>
+                        <br>
+                        <label for="">Amount 
+                            <br>
+                            <select name="amount" id="amount">
+                                <option value="49">49</option>
+                                <option value="45">45</option>
+                            </select>
+                        </label>
+                        <br>
+                        <br>
+                        <input type="submit" value="Calculate" onclick="return calclator()">
+                    </form>
+                </fieldset>
+
+                <!-- <script>
+                    function calclator(){
+                        let shed0 = parseInt(document.getElementById("shed1").value);
+                        let shed1 = parseInt(document.getElementById("shed2").value);
+                        let shed2 = parseInt(document.getElementById("shed3").value);
+                        let shed3 = parseInt(document.getElementById("shed4").value);
+                         let tott = shed0 + shed1 + shed2 + shed3;
+                         document.getElementById("tottal").innerHTML = "Tottal milk(litres): " + tott;
+                         document.getElementById("daily").innerHTML = "Tottal Amount(Kshs): " + tott*45;
+                         document.getElementById("weekly").innerHTML = "Tottal Amount(Ksh): " + (tott*45)*7;
+                         document.getElementById("monthly").innerHTML = "Tottal Amount(Kshs): " + (tott*45)*30;
+                         document.getElementById("yearly").innerHTML = "Tottal Amount(Kshs): " + (tott*45)*365;
+                        return false;
+                    }
+                </script> -->
+            </div>
+        <div class="results">
+            <fieldset>
+                <legend>Daily milk prod result</legend>
+                <div id="results">
+                    <p id="tottal"></p>
+                    <p id="daily"></p>
+                    <p id="weekly"></p>
+                    <p id="monthly"></p>
+                    <p id="yearly1"></p>
+                    <p id="yearly2"></p>
+                    <p id="yearly3"></p>
+                    <p id="yearly4"></p>
+                    <p id="yearly5"></p>
+                    <p id="yearly6"></p>
+                    <p id="yearly7"></p>
+                    <p id="yearly8"></p>
+                    <p id="yearly9"></p>
+                    <p id="yearly10"></p>
+                    <p id="yearly11"></p>
+                    <p id="yearly12"></p>
+                </div>
+            </fieldset>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
